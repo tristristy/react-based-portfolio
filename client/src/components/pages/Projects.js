@@ -1,24 +1,67 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card'
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default function Projects() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <Card style={{ width: "25rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Body>
+          <Card.Title>Tour Tinder</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+          <ListGroup.Item>Cras justo odio</ListGroup.Item>
+          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        </ListGroup>
+        <Card.Body>
+          <Card.Link href="#">Github Link</Card.Link>
+          <Card.Link href="#">Deployed Link</Card.Link>
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "25rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Body>
+          <Card.Title>Dungeons and Dragons Character Generator</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+          <ListGroup.Item>Cras justo odio</ListGroup.Item>
+          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        </ListGroup>
+        <Card.Body>
+          <Card.Link href="#">Github Link</Card.Link>
+          <Card.Link href="#">Deployed Link</Card.Link>
+        </Card.Body>
+      </Card>
+      <Card style={{ width: "25rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Body>
+          <Card.Title>Travel Mate</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+        </Card.Body>
+        <ListGroup className="list-group-flush">
+          <ListGroup.Item>Cras justo odio</ListGroup.Item>
+          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        </ListGroup>
+        <Card.Body>
+          <Card.Link href="#">Github Link</Card.Link>
+          <Card.Link href="#">Deployed Link</Card.Link>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
