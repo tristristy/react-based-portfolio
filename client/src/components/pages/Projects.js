@@ -1,11 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 import ListGroup from "react-bootstrap/ListGroup";
+import "react-bootstrap";
 
 export default function Projects() {
   return (
-    <div>
-      <Card style={{ width: "25rem" }}>
+    <div style={{ display: "flex" }}>
+      <Card style={{ width: "25rem", margin: "20px" }}>
         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
         <Card.Body>
           <Card.Title>Tour Tinder</Card.Title>
@@ -24,7 +25,7 @@ export default function Projects() {
           <Card.Link href="#">Deployed Link</Card.Link>
         </Card.Body>
       </Card>
-      <Card style={{ width: "25rem" }}>
+      <Card style={{ width: "25rem", margin: "20px" }}>
         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
         <Card.Body>
           <Card.Title>Dungeons and Dragons Character Generator</Card.Title>
@@ -43,7 +44,7 @@ export default function Projects() {
           <Card.Link href="#">Deployed Link</Card.Link>
         </Card.Body>
       </Card>
-      <Card style={{ width: "25rem" }}>
+      <Card style={{ width: "25rem", margin: "20px" }}>
         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
         <Card.Body>
           <Card.Title>Travel Mate</Card.Title>
@@ -58,8 +59,12 @@ export default function Projects() {
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Github Link</Card.Link>
-          <Card.Link href="#">Deployed Link</Card.Link>
+          <Card.Link href="https://github.com/ahuber25/travel-mate">
+            Github Link
+          </Card.Link>
+          <Card.Link href="http://travel-mategr1.herokuapp.com/">
+            Deployed Link
+          </Card.Link>
         </Card.Body>
       </Card>
     </div>

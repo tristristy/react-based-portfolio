@@ -1,5 +1,7 @@
 import React from 'react';
+import "react-bootstrap"
 import Card from "react-bootstrap/Card";
+
 
 
 export default function About() {
@@ -11,9 +13,11 @@ export default function About() {
         <Card.Body>
           <Card.Title>Tris Wilbraham</Card.Title>
           <Card.Text>
-            Hello, my name is Tris and I am a junior web developer. I enjoy all things nerdy such as Dungeons and Dragons
-            as well things relating to Video Games. I lean more towards the back-end of development, enjoying creating database stuctures
-            as well as assigning relations between tables.
+            Hello, my name is Tris and I am a junior web developer. I enjoy all
+            things nerdy such as Dungeons and Dragons as well things relating to
+            Video Games. I lean more towards the back-end of development,
+            enjoying creating database stuctures as well as assigning relations
+            between tables.
           </Card.Text>
         </Card.Body>
         <Card.Body>

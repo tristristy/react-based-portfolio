@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "react-bootstrap";
 export default function Home() {
   return (
     <div>
