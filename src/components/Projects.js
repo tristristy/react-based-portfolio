@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <div style={{ display: "flex" }}>
       <Card style={{ width: "25rem", margin: "20px" }}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src="../assets/images/toursmall.png" />
         <Card.Body>
           <Card.Title>Tour Tinder</Card.Title>
           <Card.Text>
@@ -21,12 +21,16 @@ export default function Projects() {
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Github Link</Card.Link>
-          <Card.Link href="#">Deployed Link</Card.Link>
+          <Card.Link href="#https://github.com/tristristy/Trip-Planner">
+            Github Link
+          </Card.Link>
+          <Card.Link href="#https://tristristy.github.io/Trip-Planner/">
+            Deployed Link
+          </Card.Link>
         </Card.Body>
       </Card>
       <Card style={{ width: "25rem", margin: "20px" }}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src="../assets/images/dndsmall.png" />
         <Card.Body>
           <Card.Title>Dungeons and Dragons Character Generator</Card.Title>
           <Card.Text>
@@ -40,12 +44,19 @@ export default function Projects() {
           <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#">Github Link</Card.Link>
-          <Card.Link href="#">Deployed Link</Card.Link>
+          <Card.Link href="#https://github.com/tristristy/dnd-character-creator">
+            Github Link
+          </Card.Link>
+          <Card.Link
+            href="#https://d
+          ry-sands-22029.herokuapp.com"
+          >
+            Deployed Link
+          </Card.Link>
         </Card.Body>
       </Card>
       <Card style={{ width: "25rem", margin: "20px" }}>
-        <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+        <Card.Img variant="top" src="../assets/images/travelmatesmall.png" />
         <Card.Body>
           <Card.Title>Travel Mate</Card.Title>
           <Card.Text>

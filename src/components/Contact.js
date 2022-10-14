@@ -28,14 +28,14 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <div>
-        <form ref={form} onSubmit={sendEmail}>
+      <div style={{width: "25rm", padding: "20px"}}>
+        <form ref={form} onSubmit={sendEmail} style={{display:"inlineflex", }}>
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Email</label>
           <input type="email" name="user_email" />
           <label>Message</label>
-          <textarea name="message" />
+          <textarea name="message" style={{padding:""}} />
           <input type="submit" value="Send" />
         </form>
       </div>

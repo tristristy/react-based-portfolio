@@ -9,8 +9,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-          //Terinary. Turns on and off the nav-link depending if you are currently on the page
+          
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
           Home
@@ -20,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
-          //  TODO: Add a comment explaining what this logic is doing
+          
 
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
@@ -31,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#projects"
           onClick={() => handlePageChange("Projects")}
-          //  TODO: Add a comment explaining what this logic is doing
+          
 
           className={
             currentPage === "Projects" ? "nav-link active" : "nav-link"
@@ -43,7 +42,6 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
           href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
 
           onClick={() => handlePageChange("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
